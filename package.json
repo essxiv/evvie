@@ -1,0 +1,27 @@
+{
+  "name": "eve_online_tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essxiv/evvie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/essxiv/evvie/issues"
+  },
+  "homepage": "https://github.com/essxiv/evvie#readme",
+  "dependencies": {
+    "boom": "^4.0.0",
+    "hapi": "^15.0.3",
+    "hapi-auth-jwt2": "^7.1.3",
+    "knex": "^0.12.1",
+    "mysql2": "^1.0.0"
+  }
+}
